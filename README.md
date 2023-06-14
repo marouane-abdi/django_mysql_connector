@@ -22,11 +22,11 @@ Before running your Django project, there are a few configuration changes you ne
 
   Open a terminal or command prompt.
 
-5 - Navigate to your project's root directory using the cd command. For example:
-
-
-cd app
-6 Apply any pending database migrations by running the following command:
+5 - Navigate to your project's root directory using the cd command. 
+ cd app
+ 
+ 
+  6 Apply any pending database migrations by running the following command:
 
 
   python manage.py migrate
