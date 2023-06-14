@@ -14,6 +14,8 @@ Before running your Django project, there are a few configuration changes you ne
 'PASSWORD': '<your_mysql_password>',
 'HOST': '<your_mysql_host>',
 'PORT': '<your_mysql_port>',
+
+
 3 - Save the settings.py file.
 
 4 - Running the Django Project
@@ -26,7 +28,7 @@ Before running your Django project, there are a few configuration changes you ne
  cd app
  
  
-  6 Apply any pending database migrations by running the following command:
+ 6- Apply any pending database migrations by running the following command:
 
 
   python manage.py migrate
