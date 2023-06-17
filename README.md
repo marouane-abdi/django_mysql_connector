@@ -8,6 +8,7 @@ Import the required modules in your Django project. In your Python file (e.g., v
 
 pip install django 
 pip install mysql-connector-python
+pip install mysqlclient
 
 Open the settings.py file located in the project's root directory
 
