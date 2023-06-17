@@ -7,8 +7,7 @@ Make sure you have Django and MySQL installed. You can install Django using pip,
 Import the required modules in your Django project. In your Python file (e.g., views.py), add the following import statements:
 
 pip install django 
-pip install mysql.connector
-from django.db import connection
+pip install mysql-connector-python
 
 Open the settings.py file located in the project's root directory
 
