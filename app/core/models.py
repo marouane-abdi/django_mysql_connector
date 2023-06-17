@@ -8,7 +8,7 @@ class Person(models.Model):
     last_name = models.CharField(max_length=100)
     email = models.EmailField(max_length = 200)
     age = models.IntegerField(validators=[MaxValueValidator(150)])
-    phoneNumber = models.IntegerField(default=0) 
+    phoneNumber = models.CharField(max_length=20, default='')
     city = models.CharField(max_length = 50)
     country = models.CharField(max_length=100)
     OCCUPATION_CHOICES = [
